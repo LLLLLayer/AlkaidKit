@@ -1,0 +1,6 @@
+framework module AlkaidKit {
+  umbrella header "AlkaidKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

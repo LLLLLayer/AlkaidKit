@@ -1,0 +1,16 @@
+PODS:
+  - AlkaidKit (0.1.0)
+
+DEPENDENCIES:
+  - AlkaidKit (from `../`)
+
+EXTERNAL SOURCES:
+  AlkaidKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlkaidKit: 3c69d54fb3948249000e92d493dca2dbca2b0076
+
+PODFILE CHECKSUM: b5cda913951c6e8068b7854ccea4d42734cff3d3
+
+COCOAPODS: 1.10.0

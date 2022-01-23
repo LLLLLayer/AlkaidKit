@@ -1,0 +1,6 @@
+framework module Pods_AlkaidKit_Tests {
+  umbrella header "Pods-AlkaidKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

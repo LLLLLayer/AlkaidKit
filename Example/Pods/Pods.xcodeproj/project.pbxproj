@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D23EBDEFE2474FC077EF237E65B4743 /* AlkaidKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C057C10F9310CE7DB74C59A255ED2D /* AlkaidKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA7856BE4E021CC98B692E10011C9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A775E2F90F8112257DD87D28B764465 /* Pods-AlkaidKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13125E06871718D5792137F4418657A0 /* Pods-AlkaidKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6A37328525744D4C786A10B561654D /* AlkaidKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB42356C82C7B9E0D829BF04E88034 /* AlkaidKit-dummy.m */; };
+		A1B633F22868EB6E3085604816037DED /* Pods-AlkaidKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F0D886116757F5052D053FD454421 /* Pods-AlkaidKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40C589617210E0592F850B259B6578F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772DFFEDD45333EE5C3E543940411693 /* ReplaceMe.swift */; };
+		AEA04BD8150D042D3B4DC074E66BDFE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D9CC8AE9B22CFC5B92FB195499810443 /* Pods-AlkaidKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A769AB22FDCCC1B162B339AE40454F /* Pods-AlkaidKit_Tests-dummy.m */; };
+		DEC24F260FAB5D2D26FF86A45B46FB19 /* Pods-AlkaidKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A7FEA64F359271BDA97D49BDBB9C /* Pods-AlkaidKit_Example-dummy.m */; };
+		ED76E95B0CB7B0E3BF522EF3A028EC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CB65B6770C3613A49EED6986B1639F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F990BA012C1FBCA79561C3DC433A7A;
+			remoteInfo = AlkaidKit;
+		};
+		AFB85EEF33A2C3736F39C9976D5F697C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55FAA2A31AA5B1EDB972032ECE4893F9;
+			remoteInfo = "Pods-AlkaidKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13125E06871718D5792137F4418657A0 /* Pods-AlkaidKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlkaidKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15B2066E662465DEE9D8F55C54CDAD43 /* Pods-AlkaidKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlkaidKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		171E83F33D460EDFAAB213C94E581D5D /* Pods-AlkaidKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlkaidKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CEC932D9EA650EBC0A57E5BE8965513 /* Pods-AlkaidKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlkaidKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E114FA18C3AF1D88C8B61E933B57AA5 /* AlkaidKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlkaidKit.debug.xcconfig; sourceTree = "<group>"; };
+		31E73FDE414F24C10B10D98E61B47EBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		43C8D8F715CBCF94D3E27BD2EA0C0912 /* Pods-AlkaidKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlkaidKit_Tests.modulemap"; sourceTree = "<group>"; };
+		47A769AB22FDCCC1B162B339AE40454F /* Pods-AlkaidKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlkaidKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DEF8AB63E82E3424BFE7FF26F74DC1F /* AlkaidKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlkaidKit-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		772DFFEDD45333EE5C3E543940411693 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AlkaidKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		81C057C10F9310CE7DB74C59A255ED2D /* AlkaidKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlkaidKit-umbrella.h"; sourceTree = "<group>"; };
+		88B3A7FEA64F359271BDA97D49BDBB9C /* Pods-AlkaidKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlkaidKit_Example-dummy.m"; sourceTree = "<group>"; };
+		8F9137D687FCE41DB5EA678D4276D965 /* Pods-AlkaidKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlkaidKit_Example-Info.plist"; sourceTree = "<group>"; };
+		97BB42356C82C7B9E0D829BF04E88034 /* AlkaidKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlkaidKit-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCC3F412F0887CC0A1FDB6357482881 /* Pods_AlkaidKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlkaidKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD5BC896BA6FB2004B0AEB33C4C972 /* Pods-AlkaidKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlkaidKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B5FBBE7209F69DE3BADF78D14C9D3F62 /* Pods_AlkaidKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlkaidKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06BA5D40AEA2945A6E3AC7697B07FD1 /* Pods-AlkaidKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlkaidKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4399D124DF0DB52D5A727CA07F403B1 /* Pods-AlkaidKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlkaidKit_Example.modulemap"; sourceTree = "<group>"; };
+		CD412FAD3D5F7C03948EF670EC6FACEC /* Pods-AlkaidKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlkaidKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D2705085728B4514D4AAC344596EAF /* AlkaidKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlkaidKit.modulemap; sourceTree = "<group>"; };
+		D7D27F2E09A3F6D2FEFD4A1C44A94E3B /* Pods-AlkaidKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlkaidKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DCC0A2EFF17ACDA071E9D205E8F303A8 /* Pods-AlkaidKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlkaidKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDADFA26B7D8CF74DB35E2E60673A1EE /* AlkaidKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlkaidKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F77F19BB24AD1B8E09F43A68131F02 /* Pods-AlkaidKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlkaidKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E970E37B4C57955FE9308F046888E358 /* Pods-AlkaidKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlkaidKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFE32A1FA530D3B42B11CABF5C1F6B80 /* AlkaidKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlkaidKit-prefix.pch"; sourceTree = "<group>"; };
+		F46F0D886116757F5052D053FD454421 /* Pods-AlkaidKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlkaidKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		F487C52D2B5E82D6747478DA1723D5FD /* AlkaidKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AlkaidKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDE5BF81CCFB92EED1FEBFBA441EA59F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF5C9865A8F6B899F471F4B55DDA5F22 /* AlkaidKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlkaidKit.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058B553AA736BD5214378657E8758F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA04BD8150D042D3B4DC074E66BDFE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158E9FCC9463CCD7D232F6642AB28E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED76E95B0CB7B0E3BF522EF3A028EC84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958C29193C71BAAB364223FF13945974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA7856BE4E021CC98B692E10011C9D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E6C1087C1F08E623F1C37B08094367 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E725852D339B6C25EE89AD1FF5AB0638 /* AlkaidKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		19862A511B99A49AF7AABB98A913F475 /* Pods-AlkaidKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43C8D8F715CBCF94D3E27BD2EA0C0912 /* Pods-AlkaidKit_Tests.modulemap */,
+				1CEC932D9EA650EBC0A57E5BE8965513 /* Pods-AlkaidKit_Tests-acknowledgements.markdown */,
+				E970E37B4C57955FE9308F046888E358 /* Pods-AlkaidKit_Tests-acknowledgements.plist */,
+				47A769AB22FDCCC1B162B339AE40454F /* Pods-AlkaidKit_Tests-dummy.m */,
+				15B2066E662465DEE9D8F55C54CDAD43 /* Pods-AlkaidKit_Tests-Info.plist */,
+				13125E06871718D5792137F4418657A0 /* Pods-AlkaidKit_Tests-umbrella.h */,
+				E3F77F19BB24AD1B8E09F43A68131F02 /* Pods-AlkaidKit_Tests.debug.xcconfig */,
+				D7D27F2E09A3F6D2FEFD4A1C44A94E3B /* Pods-AlkaidKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-AlkaidKit_Tests";
+			path = "Target Support Files/Pods-AlkaidKit_Tests";
+			sourceTree = "<group>";
+		};
+		2B85C5C17823F239FEE648AAAF81B7DD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F487C52D2B5E82D6747478DA1723D5FD /* AlkaidKit.podspec */,
+				31E73FDE414F24C10B10D98E61B47EBF /* LICENSE */,
+				FDE5BF81CCFB92EED1FEBFBA441EA59F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		51CCE6FA39295A942BE05EBA98A4AED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDADFA26B7D8CF74DB35E2E60673A1EE /* AlkaidKit.framework */,
+				B5FBBE7209F69DE3BADF78D14C9D3F62 /* Pods_AlkaidKit_Example.framework */,
+				9DCC3F412F0887CC0A1FDB6357482881 /* Pods_AlkaidKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B7840A200F421B31CCA2CEC908ECB995 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5835FD86CA9E57B5697A27F09FFED2B /* Pods-AlkaidKit_Example */,
+				19862A511B99A49AF7AABB98A913F475 /* Pods-AlkaidKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CD07FF414B776A2EBAFF5653CBEC886C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D2705085728B4514D4AAC344596EAF /* AlkaidKit.modulemap */,
+				97BB42356C82C7B9E0D829BF04E88034 /* AlkaidKit-dummy.m */,
+				6DEF8AB63E82E3424BFE7FF26F74DC1F /* AlkaidKit-Info.plist */,
+				EFE32A1FA530D3B42B11CABF5C1F6B80 /* AlkaidKit-prefix.pch */,
+				81C057C10F9310CE7DB74C59A255ED2D /* AlkaidKit-umbrella.h */,
+				2E114FA18C3AF1D88C8B61E933B57AA5 /* AlkaidKit.debug.xcconfig */,
+				FF5C9865A8F6B899F471F4B55DDA5F22 /* AlkaidKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AlkaidKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				08E6C1087C1F08E623F1C37B08094367 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				51CCE6FA39295A942BE05EBA98A4AED7 /* Products */,
+				B7840A200F421B31CCA2CEC908ECB995 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5835FD86CA9E57B5697A27F09FFED2B /* Pods-AlkaidKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C4399D124DF0DB52D5A727CA07F403B1 /* Pods-AlkaidKit_Example.modulemap */,
+				C06BA5D40AEA2945A6E3AC7697B07FD1 /* Pods-AlkaidKit_Example-acknowledgements.markdown */,
+				DCC0A2EFF17ACDA071E9D205E8F303A8 /* Pods-AlkaidKit_Example-acknowledgements.plist */,
+				88B3A7FEA64F359271BDA97D49BDBB9C /* Pods-AlkaidKit_Example-dummy.m */,
+				171E83F33D460EDFAAB213C94E581D5D /* Pods-AlkaidKit_Example-frameworks.sh */,
+				8F9137D687FCE41DB5EA678D4276D965 /* Pods-AlkaidKit_Example-Info.plist */,
+				F46F0D886116757F5052D053FD454421 /* Pods-AlkaidKit_Example-umbrella.h */,
+				CD412FAD3D5F7C03948EF670EC6FACEC /* Pods-AlkaidKit_Example.debug.xcconfig */,
+				A3CD5BC896BA6FB2004B0AEB33C4C972 /* Pods-AlkaidKit_Example.release.xcconfig */,
+			);
+			name = "Pods-AlkaidKit_Example";
+			path = "Target Support Files/Pods-AlkaidKit_Example";
+			sourceTree = "<group>";
+		};
+		E725852D339B6C25EE89AD1FF5AB0638 /* AlkaidKit */ = {
+			isa = PBXGroup;
+			children = (
+				772DFFEDD45333EE5C3E543940411693 /* ReplaceMe.swift */,
+				2B85C5C17823F239FEE648AAAF81B7DD /* Pod */,
+				CD07FF414B776A2EBAFF5653CBEC886C /* Support Files */,
+			);
+			name = AlkaidKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E830DAEF7D65CE59C3D015864DD69AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D23EBDEFE2474FC077EF237E65B4743 /* AlkaidKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC77E10ECC446366076AC5975042AD2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A775E2F90F8112257DD87D28B764465 /* Pods-AlkaidKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF52C9FFB95641D8DC42C617E70764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B633F22868EB6E3085604816037DED /* Pods-AlkaidKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55FAA2A31AA5B1EDB972032ECE4893F9 /* Pods-AlkaidKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63550CB1C58344BA89E73CFD620C519B /* Build configuration list for PBXNativeTarget "Pods-AlkaidKit_Example" */;
+			buildPhases = (
+				E6EF52C9FFB95641D8DC42C617E70764 /* Headers */,
+				DD248229C3A1B8510088FA6A98E630C8 /* Sources */,
+				958C29193C71BAAB364223FF13945974 /* Frameworks */,
+				68166AFFA5880529E6E776AA01AA1239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B613E135BFF3C6D6EC1597C0C6BF95 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlkaidKit_Example";
+			productName = "Pods-AlkaidKit_Example";
+			productReference = B5FBBE7209F69DE3BADF78D14C9D3F62 /* Pods_AlkaidKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83BD7EC268E9C6B75BFA3DA60792FCD1 /* Pods-AlkaidKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE37A4BD3DE86E74FF3CD77A869E748 /* Build configuration list for PBXNativeTarget "Pods-AlkaidKit_Tests" */;
+			buildPhases = (
+				CC77E10ECC446366076AC5975042AD2C /* Headers */,
+				D1A6A2282A407DCAE5807F1FFF614919 /* Sources */,
+				058B553AA736BD5214378657E8758F45 /* Frameworks */,
+				5361518F1540150430D769F79BA25FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FBEE1E2E0603FCF1C8405AC3DC9B38 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlkaidKit_Tests";
+			productName = "Pods-AlkaidKit_Tests";
+			productReference = 9DCC3F412F0887CC0A1FDB6357482881 /* Pods_AlkaidKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7F990BA012C1FBCA79561C3DC433A7A /* AlkaidKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2B764380A9F2071281D2E9F919C5B3 /* Build configuration list for PBXNativeTarget "AlkaidKit" */;
+			buildPhases = (
+				5E830DAEF7D65CE59C3D015864DD69AA /* Headers */,
+				5B2DAB09D7E91C2066193C7974BAFB0E /* Sources */,
+				158E9FCC9463CCD7D232F6642AB28E73 /* Frameworks */,
+				03A37485C0B163233812AD6BEF405EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlkaidKit;
+			productName = AlkaidKit;
+			productReference = DDADFA26B7D8CF74DB35E2E60673A1EE /* AlkaidKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 51CCE6FA39295A942BE05EBA98A4AED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F990BA012C1FBCA79561C3DC433A7A /* AlkaidKit */,
+				55FAA2A31AA5B1EDB972032ECE4893F9 /* Pods-AlkaidKit_Example */,
+				83BD7EC268E9C6B75BFA3DA60792FCD1 /* Pods-AlkaidKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A37485C0B163233812AD6BEF405EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5361518F1540150430D769F79BA25FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68166AFFA5880529E6E776AA01AA1239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2DAB09D7E91C2066193C7974BAFB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6A37328525744D4C786A10B561654D /* AlkaidKit-dummy.m in Sources */,
+				A40C589617210E0592F850B259B6578F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A6A2282A407DCAE5807F1FFF614919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CC8AE9B22CFC5B92FB195499810443 /* Pods-AlkaidKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD248229C3A1B8510088FA6A98E630C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC24F260FAB5D2D26FF86A45B46FB19 /* Pods-AlkaidKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FBEE1E2E0603FCF1C8405AC3DC9B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AlkaidKit_Example";
+			target = 55FAA2A31AA5B1EDB972032ECE4893F9 /* Pods-AlkaidKit_Example */;
+			targetProxy = AFB85EEF33A2C3736F39C9976D5F697C /* PBXContainerItemProxy */;
+		};
+		B6B613E135BFF3C6D6EC1597C0C6BF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlkaidKit;
+			target = D7F990BA012C1FBCA79561C3DC433A7A /* AlkaidKit */;
+			targetProxy = 0CB65B6770C3613A49EED6986B1639F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C6E3F7D32C7AAAE0B7A6ECF92CE4A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CD5BC896BA6FB2004B0AEB33C4C972 /* Pods-AlkaidKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlkaidKit_Example/Pods-AlkaidKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlkaidKit_Example/Pods-AlkaidKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D22E3A80AF68A5EFF9BDFD415780611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E114FA18C3AF1D88C8B61E933B57AA5 /* AlkaidKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlkaidKit/AlkaidKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlkaidKit/AlkaidKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlkaidKit/AlkaidKit.modulemap";
+				PRODUCT_MODULE_NAME = AlkaidKit;
+				PRODUCT_NAME = AlkaidKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D37494C8B09DCF94BF2763DF03A9223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D27F2E09A3F6D2FEFD4A1C44A94E3B /* Pods-AlkaidKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlkaidKit_Tests/Pods-AlkaidKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlkaidKit_Tests/Pods-AlkaidKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D94963D05C557DE83A4412F984BE4EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD412FAD3D5F7C03948EF670EC6FACEC /* Pods-AlkaidKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlkaidKit_Example/Pods-AlkaidKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlkaidKit_Example/Pods-AlkaidKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E506BF3E38BE6528363AEA0450927A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F77F19BB24AD1B8E09F43A68131F02 /* Pods-AlkaidKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlkaidKit_Tests/Pods-AlkaidKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlkaidKit_Tests/Pods-AlkaidKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F80F81BB95BBFB76EA641B2917A9D0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5C9865A8F6B899F471F4B55DDA5F22 /* AlkaidKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlkaidKit/AlkaidKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlkaidKit/AlkaidKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlkaidKit/AlkaidKit.modulemap";
+				PRODUCT_MODULE_NAME = AlkaidKit;
+				PRODUCT_NAME = AlkaidKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63550CB1C58344BA89E73CFD620C519B /* Build configuration list for PBXNativeTarget "Pods-AlkaidKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94963D05C557DE83A4412F984BE4EB0 /* Debug */,
+				2C6E3F7D32C7AAAE0B7A6ECF92CE4A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE37A4BD3DE86E74FF3CD77A869E748 /* Build configuration list for PBXNativeTarget "Pods-AlkaidKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E506BF3E38BE6528363AEA0450927A6E /* Debug */,
+				9D37494C8B09DCF94BF2763DF03A9223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2B764380A9F2071281D2E9F919C5B3 /* Build configuration list for PBXNativeTarget "AlkaidKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D22E3A80AF68A5EFF9BDFD415780611 /* Debug */,
+				F80F81BB95BBFB76EA641B2917A9D0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "AlkaidKit",
+  "version": "0.1.0",
+  "summary": "A short description of AlkaidKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LLLLLayer/AlkaidKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LLLLLayer": "17635366177@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LLLLLayer/AlkaidKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AlkaidKit/Classes/**/*"
+}
