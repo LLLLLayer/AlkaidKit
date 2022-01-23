@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AlkaidKit_Example' do
+  pod 'AlkaidKit', :path => '../'
+
+  target 'AlkaidKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
